@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/dziecieca.9d3c443a.jpg"
   },
   {
-    "revision": "c041ac6218ee8fd96041",
+    "revision": "454fe0533929e94da541",
     "url": "/elizaa/static/css/main.8b266638.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/ciazowa.c750d242.jpg"
   },
   {
-    "revision": "c041ac6218ee8fd96041",
-    "url": "/elizaa/static/js/main.3f1b7c37.chunk.js"
+    "revision": "454fe0533929e94da541",
+    "url": "/elizaa/static/js/main.8acb6cf9.chunk.js"
   },
   {
     "revision": "68c81f5162a4355d0d972b35cefc8394",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/elizaa/static/css/2.1ea57659.chunk.css"
   },
   {
-    "revision": "ab3036bc4fafa57bc39cf414611b9568",
+    "revision": "1041ac83fc6dd668a6dda616bec4d1ad",
     "url": "/elizaa/index.html"
   }
 ];

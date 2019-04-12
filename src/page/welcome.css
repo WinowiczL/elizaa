@@ -1,0 +1,10 @@
+.image-size {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+.articel {
+  background-color: red;
+}

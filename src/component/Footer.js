@@ -27,11 +27,11 @@ export const Footer = () => {
                 </li>
                 <li>
                   <i class="fa fa-envelope" aria-hidden="true" />
-                  firma@kurs.yt
+                  elizamakiej
                 </li>
                 <li>
                   <i class="fa fa-envelope" aria-hidden="true" />
-                  firma@kurs.yt
+                  elizamakiej
                 </li>
               </ul>
             </div>

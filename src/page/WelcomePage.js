@@ -13,8 +13,8 @@ export class WelcomePage extends React.Component {
       <>
         <SimpleSlider />
         <SecondContent />
-        <AboutMe />
         <ThirdContent />
+        <AboutMe />
         <Opinions />
       </>
     );

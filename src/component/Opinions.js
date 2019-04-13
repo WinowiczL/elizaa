@@ -2,7 +2,7 @@ import React from "react";
 
 export const Opinions = () => {
   return (
-    <section class="testimonial">
+    <section class="testimonial mt-5">
       <div class="container">
         <div class="text-center testimonial-content">
           <h2 class="text-uppercase">
@@ -17,7 +17,7 @@ export const Opinions = () => {
               Anna Kowalska <cite title="Młoda mama">(Młoda mama)</cite>
             </footer>
           </blockquote>
-          <div className="navigation-line mb-5" />
+
           <blockquote class="blockquote">
             <p>
               Eliza robi najlepsze zdjęcia! Profesjonalne podejście do klienta,

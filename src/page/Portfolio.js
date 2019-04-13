@@ -82,23 +82,23 @@ export class Portfolio extends React.Component {
 
   onClickKids = () => {
     this.setState({
-      isKids: true,
       isBaby: false,
       isPregnancy: false,
       isPortrait: false,
       isFamily: false,
-      isWedding: false
+      isWedding: false,
+      isKids: true
     });
   };
 
   onClickBaby = () => {
     this.setState({
       isKids: false,
-      isBaby: true,
       isPregnancy: false,
       isPortrait: false,
       isFamily: false,
-      isWedding: false
+      isWedding: false,
+      isBaby: true
     });
   };
 
@@ -106,10 +106,10 @@ export class Portfolio extends React.Component {
     this.setState({
       isKids: false,
       isBaby: false,
-      isPregnancy: true,
       isPortrait: false,
       isFamily: false,
-      isWedding: false
+      isWedding: false,
+      isPregnancy: true
     });
   };
 
@@ -118,9 +118,9 @@ export class Portfolio extends React.Component {
       isKids: false,
       isBaby: false,
       isPregnancy: false,
-      isPortrait: true,
       isFamily: false,
-      isWedding: false
+      isWedding: false,
+      isPortrait: true
     });
   };
 
@@ -130,8 +130,8 @@ export class Portfolio extends React.Component {
       isBaby: false,
       isPregnancy: false,
       isPortrait: false,
-      isFamily: true,
-      isWedding: false
+      isWedding: false,
+      isFamily: true
     });
   };
 

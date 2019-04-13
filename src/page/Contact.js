@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import photo1 from "../utils/photos/contact/1.png";
 
 export class Contact extends Component {
   state = {
@@ -25,56 +26,64 @@ export class Contact extends Component {
   render() {
     return (
       <div className="container">
-        <form onSubmit={this.handleOnSubmit}>
-          <div className="form-group">
-            <label for="name">Imię</label>
-            <input
-              type="text"
-              className="form-control"
-              id="name"
-              placeholder="Imię"
-              onChange={this.handleOnChange}
-            />
+        <div className="row">
+          <div className="col-6">
+            <h2>Wypełnij formularz</h2>
+            <img src={photo1} alt="obraz karty" className="img-fluid" />
           </div>
-          <div className="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              className="form-control"
-              id="email"
-              aria-describedby="emailHelp"
-              placeholder="Email"
-              onChange={this.handleOnChange}
-            />
-            <small id="emailHelp" className="form-text text-muted">
-              Podaj adres email, na który mam odpowiedzieć.
-            </small>
+          <div className="col-6 align-self-center">
+            <form onSubmit={this.handleOnSubmit}>
+              <div className="form-group">
+                <label for="name">Imię</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  placeholder="Imię"
+                  onChange={this.handleOnChange}
+                />
+              </div>
+              <div className="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                  onChange={this.handleOnChange}
+                />
+                <small id="emailHelp" className="form-text text-muted">
+                  Podaj adres email, na który mam odpowiedzieć.
+                </small>
+              </div>
+              <div className="form-group">
+                <label for="message">Wiadomość</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="message"
+                  placeholder="Wiadomość"
+                  onChange={this.handleOnChange}
+                />
+              </div>
+              <div className="form-check">
+                <input
+                  type="checkbox"
+                  className="form-check-input"
+                  id="exampleCheck1"
+                  onChange={this.handleOnChange}
+                />
+                <label className="form-check-label" for="exampleCheck1">
+                  Zapoznałem się z RODO ...
+                </label>
+              </div>
+              <button type="submit" className="btn btn-outline-info">
+                Wyślij wiadomość
+              </button>
+            </form>
           </div>
-          <div className="form-group">
-            <label for="message">Wiadomość</label>
-            <input
-              type="text"
-              className="form-control"
-              id="message"
-              placeholder="Wiadomość"
-              onChange={this.handleOnChange}
-            />
-          </div>
-          <div className="form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-              onChange={this.handleOnChange}
-            />
-            <label className="form-check-label" for="exampleCheck1">
-              Zapoznałem się z RODO ...
-            </label>
-          </div>
-          <button type="submit" className="btn btn-outline-info">
-            Wyślij wiadomość
-          </button>
-        </form>
+        </div>
       </div>
     );
   }

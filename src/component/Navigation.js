@@ -51,8 +51,8 @@ export const Navigation = ({ portfolio, welcome, contact }) => {
             Kontakt
           </div>
         </nav>
-        <div className="navigation-line mb-5" />
       </div>
+      <div className="navigation-line mb-5" />
     </>
   );
 };

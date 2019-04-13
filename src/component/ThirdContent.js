@@ -1,10 +1,10 @@
 import React from "react";
-import ciazowa from "../ciazowa.jpg";
-import dziecieca from "../dziecieca.jpg";
-import noworodkowa from "../noworodkowa.jpg";
-import portretowa from "../portretowa.jpg";
-import rodzinna from "../rodzinna.jpg";
-import slubna from "../slubna.jpg";
+import ciazowa from "../utils/photos/welcome/ciazowa.jpg";
+import dziecieca from "../utils/photos/welcome/dziecieca.jpg";
+import noworodkowa from "../utils/photos/welcome/noworodkowa.jpg";
+import portretowa from "../utils/photos/welcome/portretowa.jpg";
+import rodzinna from "../utils/photos/welcome/rodzinna.jpg";
+import slubna from "../utils/photos/welcome/slubna.jpg";
 
 export const ThirdContent = () => {
   return (
@@ -19,7 +19,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>
@@ -34,7 +34,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>
@@ -49,7 +49,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>
@@ -64,7 +64,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>
@@ -79,7 +79,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>
@@ -94,7 +94,7 @@ export const ThirdContent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               rerum, dolore impedit dicta ducimus.
             </p>
-            <a href="#" className="btn btn-primary card-link">
+            <a href="#" className="btn btn-info card-link">
               Więcej
             </a>
           </div>

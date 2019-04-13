@@ -7,6 +7,11 @@
   color: #e9c8c1;
 }
 
+.navigation-active {
+  cursor: pointer;
+  color: #e9c8c1;
+}
+
 .navigation-line {
   border: 1px solid #e9c8c1;
   border-radius: 5px;

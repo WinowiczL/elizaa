@@ -1,5 +1,5 @@
 import React from "react";
-import eliza from "../eliza.jpg";
+import eliza from "../utils/photos/welcome/eliza.jpg";
 
 export const AboutMe = () => {
   return (

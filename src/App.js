@@ -1,21 +1,56 @@
 import React, { Component } from "react";
-import { Page } from "./component/Page";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faClock,
-  faEnvelope
-} from "@fortawesome/free-solid-svg-icons";
-
-library.add(faPhone);
-library.add(faClock);
-library.add(faEnvelope);
+import { WelcomePage } from "./page/WelcomePage";
+import { Navigation } from "./component/Navigation";
+import { Footer } from "./component/Footer";
+import { Portfolio } from "./page/Portfolio";
+import { Contact } from "./page/Contact";
 
 class App extends Component {
+  state = {
+    isWelcomeOpen: true,
+    isPortfolioOpen: false,
+    isContactOpen: false
+  };
+
   render() {
-    return <Page />;
+    return (
+      <>
+        <Navigation
+          portfolio={this.handleOnClickPortfolio}
+          welcome={this.handleOnClickWelcome}
+          contact={this.handleOnClickContact}
+        />
+        {this.state.isPortfolioOpen && <Portfolio />}
+        {this.state.isWelcomeOpen && <WelcomePage />}
+        {this.state.isContactOpen && <Contact />}
+        <Footer />
+      </>
+    );
   }
+
+  handleOnClickPortfolio = () => {
+    this.setState({
+      isWelcomeOpen: false,
+      isContactOpen: false,
+      isPortfolioOpen: true
+    });
+  };
+
+  handleOnClickWelcome = () => {
+    this.setState({
+      isPortfolioOpen: false,
+      isContactOpen: false,
+      isWelcomeOpen: true
+    });
+  };
+
+  handleOnClickContact = () => {
+    this.setState({
+      isPortfolioOpen: false,
+      isWelcomeOpen: false,
+      isContactOpen: true
+    });
+  };
 }
 
 export default App;

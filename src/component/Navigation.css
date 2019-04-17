@@ -4,7 +4,8 @@
 
 .navigation:hover {
   cursor: pointer;
-  color: #e9c8c1;
+  background-color: #e9c8c1;
+  color: white;
 }
 
 .navigation-active {

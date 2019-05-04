@@ -4,20 +4,20 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/1.fe619b2e.jpg"
   },
   {
-    "revision": "32fbb0aeef6139d65892",
-    "url": "/elizaa/static/css/main.865ad234.chunk.css"
+    "revision": "a088c7d2f5370aa32aac",
+    "url": "/elizaa/static/css/main.c3cd4d0b.chunk.css"
   },
   {
     "revision": "5e08bfef354c30e1e6d6",
     "url": "/elizaa/static/js/runtime~main.cd33c562.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/elizaa/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/elizaa/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "68667d019e8c3f5fcde0",
-    "url": "/elizaa/static/js/2.ba9b75d7.chunk.js"
+    "revision": "8786ae0495c971fd3254",
+    "url": "/elizaa/static/js/2.7e873715.chunk.js"
   },
   {
     "revision": "0232b53a2d4ad921d3eb681b180a1c7c",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/slubna.cc2df102.jpg"
   },
   {
+    "revision": "f7f18e1e10a4f63b2409f48c4d1cc6b8",
+    "url": "/elizaa/static/media/instagram.f7f18e1e.png"
+  },
+  {
     "revision": "5b9a6cbe856f132587a9c69a502b5ce8",
     "url": "/elizaa/static/media/logoWelcome.5b9a6cbe.jpg"
   },
@@ -100,8 +104,8 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/5.0232b53a.jpg"
   },
   {
-    "revision": "32fbb0aeef6139d65892",
-    "url": "/elizaa/static/js/main.4c49e6a9.chunk.js"
+    "revision": "a088c7d2f5370aa32aac",
+    "url": "/elizaa/static/js/main.14d40aef.chunk.js"
   },
   {
     "revision": "80f75d2a53aa1de0974c9f0c8c816a55",
@@ -188,19 +192,19 @@ self.__precacheManifest = [
     "url": "/elizaa/static/media/slick.f97e3bbf.svg"
   },
   {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/elizaa/static/media/slick.b7c9e1e4.woff"
+  },
+  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/elizaa/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/elizaa/static/media/slick.ced611da.eot"
-  },
-  {
-    "revision": "68667d019e8c3f5fcde0",
+    "revision": "8786ae0495c971fd3254",
     "url": "/elizaa/static/css/2.1ea57659.chunk.css"
   },
   {
-    "revision": "a851ec455c9eb3ee4b4ac8d98508d52a",
+    "revision": "ca8259e0594f14447675e955ad34a502",
     "url": "/elizaa/index.html"
   }
 ];

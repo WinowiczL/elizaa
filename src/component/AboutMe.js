@@ -1,18 +1,16 @@
 import React from "react";
 import eliza from "../utils/photos/welcome/eliza.jpg";
+import "./AboutMe.css";
 
 export const AboutMe = () => {
   return (
-    <>
-      <div className="container">
-        <div className="row">
-          <div className="col-4">
-            <img src={eliza} className="img-fluid rounded" alt="eliza" />
-          </div>
-          <div className="col-8 align-content-center">
-            <h1 className="display-6">O mnie</h1>
-            <article class="p-3 border rounded border-info">
-              <p>
+    <div className="about-me">
+      <div className="container ">
+        <div className="row justify-content-center">
+          <div className="col-7">
+            <h2 className="text-center ">O mnie</h2>
+            <article class="about-me-paragraph p-3">
+              <p className="text-center">
                 Super, ekstra, zwariowana, ekstra, super, zdolna, Super, ekstra,
                 zwariowana, ekstra, super, zdolna, Super, ekstra, zwariowana,
                 ekstra, super, zdolna, Super, ekstra, zwariowana, ekstra, super,
@@ -22,7 +20,12 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="navigation-line mt-5" />
-    </>
+      <div className="row justify-content-center">
+        <div className="col-4">
+          <img src={eliza} className="img-fluid rounded" alt="eliza" />
+        </div>
+      </div>
+      <div className="empty" />
+    </div>
   );
 };

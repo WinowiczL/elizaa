@@ -1,61 +1,93 @@
 import React from "react";
-import "./Navigation.css";
+import social1 from "../utils/icons/social/facebook.png";
+import social2 from "../utils/icons/social/instagram.png";
+import social3 from "../utils/icons/social/youtube.png";
 import logo from "../utils/photos/welcome/logoWelcome.jpg";
+import "./Navigation.css";
 
-export const Navigation = ({ portfolio, welcome, contact }) => {
+export const Navigation = ({ portfolio, welcome, contact, isActive }) => {
   return (
     <>
-      <div className="row justify-content-center">
-        <img src={logo} alt="logo" className="img-fluid mx-auto d-block" />
+      <div className="row justify-content-center my-4">
+        <div className="col-12 logo-size">
+          <img
+            src={logo}
+            alt="logo"
+            className="box img-fluid mx-auto d-block"
+          />
+        </div>
       </div>
-
-      <div className="container">
-        <div className="row justify-content-center">
+      <div className="socials align-self-center">
+        <img src={social3} alt="obraz karty" className="social" />
+        <img src={social2} alt="obraz karty" className="social" />
+        <img src={social1} alt="obraz karty" className="social" />
+      </div>
+      <div className="navi row my-4">
+        <nav className="col-12 nav nav-fill">
+          <div className="col-2 align-self-center navigation-line" />
           <div className="col-8">
-            <nav className="nav mt-4 flex-column flex-md-row nav-fill">
+            <div className="row">
               <div
-                className="navigation 
-            nav-link nav-item active"
+                className={
+                  isActive === "welcome"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
                 onClick={welcome}
               >
-                Strona główna
+                STRONA GŁÓWNA
               </div>
               <div
-                className="navigation 
-            nav-link nav-item"
+                className={
+                  isActive === "portfolio"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
                 onClick={portfolio}
               >
-                Portfolio
+                PORTFOLIO
               </div>
               <div
-                className="navigation 
-            nav-link nav-item"
+                className={
+                  isActive === "price"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
               >
-                Opinie
+                CENNIK
               </div>
               <div
-                className="navigation 
-            nav-link nav-item"
+                className={
+                  isActive === "studio"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
               >
-                Cennik
+                STUDIO
               </div>
               <div
-                className="navigation 
-            nav-link nav-item active"
+                className={
+                  isActive === "session"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
               >
-                Studio
+                PRZED SESJĄ
               </div>
               <div
-                className="navigation 
-            nav-link nav-item"
+                className={
+                  isActive === "contact"
+                    ? "navigation-choosen nav-link nav-item"
+                    : "navigation  nav-link nav-item"
+                }
                 onClick={contact}
               >
-                Kontakt
+                KONTAKT
               </div>
-            </nav>
+            </div>
           </div>
-        </div>
-        <div className="navigation-line mb-5" />
+          <div className="col-2 align-self-center navigation-line" />
+        </nav>
       </div>
     </>
   );

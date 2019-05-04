@@ -1,5 +1,31 @@
 .navigation {
-  color: black;
+  color: #e9c8c1;
+  transition: 1s;
+}
+
+.socials {
+  margin-right: 80px;
+}
+
+.navi {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.social {
+  margin-right: 10px;
+  width: 32px;
+  float: right;
+}
+
+.logo-size {
+  width: 200px;
+}
+
+.navigation-choosen {
+  cursor: pointer;
+  background-color: #e9c8c1;
+  color: white;
 }
 
 .navigation:hover {

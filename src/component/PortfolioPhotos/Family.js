@@ -9,7 +9,7 @@ export const Family = () => {
   return (
     <div className="card-columns">
       <div className="card mb-3">
-        <img src={photo1} alt="obraz karty" className="wow fadeInUp" />
+        <img src={photo1} alt="obraz karty" className="card-img-top" />
       </div>
 
       <div className="card mb-3">

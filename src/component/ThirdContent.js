@@ -5,6 +5,7 @@ import noworodkowa from "../utils/photos/welcome/noworodkowa.jpg";
 import portretowa from "../utils/photos/welcome/portretowa.jpg";
 import rodzinna from "../utils/photos/welcome/rodzinna.jpg";
 import slubna from "../utils/photos/welcome/slubna.jpg";
+import "./ThirdContent.css";
 
 export const ThirdContent = () => {
   return (
@@ -14,15 +15,13 @@ export const ThirdContent = () => {
           <div className="card mb-5">
             <img src={ciazowa} alt="obraz karty" className="card-img-top" />
             <div className="card-body">
-              <h4 className="card-title text-info">Sesje ciązowe</h4>
-              <h5 className="card-subtitle text-info">
-                Chwila warta uwiecznienia
-              </h5>
+              <h4 className="card-title">Sesje ciązowe</h4>
+              <h5 className="card-subtitle">Chwila warta uwiecznienia</h5>
               <p className="text-dark">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="btn more-button card-link">
                 Więcej
               </a>
             </div>
@@ -37,7 +36,7 @@ export const ThirdContent = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="btn more-button card-link">
                 Więcej
               </a>
             </div>
@@ -52,7 +51,7 @@ export const ThirdContent = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="btn more-button card-link">
                 Więcej
               </a>
             </div>
@@ -67,7 +66,7 @@ export const ThirdContent = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="more-button btn card-link">
                 Więcej
               </a>
             </div>
@@ -82,7 +81,7 @@ export const ThirdContent = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="btn more-button card-link">
                 Więcej
               </a>
             </div>
@@ -97,14 +96,15 @@ export const ThirdContent = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                 rerum, dolore impedit dicta ducimus.
               </p>
-              <a href="#" className="btn btn-info card-link">
+              <a href="#" className="btn more-button card-link">
                 Więcej
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="navigation-line mb-5" />
+      <div className="empty" />
+      {/* <div className="navigation-line" /> */}
     </>
   );
 };

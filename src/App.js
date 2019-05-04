@@ -5,17 +5,21 @@ import { Footer } from "./component/Footer";
 import { Portfolio } from "./page/Portfolio";
 import { Contact } from "./page/Contact";
 
+import "./App.css";
+
 class App extends Component {
   state = {
     isWelcomeOpen: true,
     isPortfolioOpen: false,
-    isContactOpen: false
+    isContactOpen: false,
+    choosenOption: "welcome"
   };
 
   render() {
     return (
       <>
         <Navigation
+          isActive={this.state.choosenOption}
           portfolio={this.handleOnClickPortfolio}
           welcome={this.handleOnClickWelcome}
           contact={this.handleOnClickContact}
@@ -30,6 +34,7 @@ class App extends Component {
 
   handleOnClickPortfolio = () => {
     this.setState({
+      choosenOption: "portfolio",
       isWelcomeOpen: false,
       isContactOpen: false,
       isPortfolioOpen: true
@@ -38,6 +43,7 @@ class App extends Component {
 
   handleOnClickWelcome = () => {
     this.setState({
+      choosenOption: "welcome",
       isPortfolioOpen: false,
       isContactOpen: false,
       isWelcomeOpen: true
@@ -46,6 +52,7 @@ class App extends Component {
 
   handleOnClickContact = () => {
     this.setState({
+      choosenOption: "contact",
       isPortfolioOpen: false,
       isWelcomeOpen: false,
       isContactOpen: true
